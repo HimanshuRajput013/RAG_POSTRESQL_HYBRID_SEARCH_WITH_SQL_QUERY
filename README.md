@@ -69,7 +69,7 @@ Login with the 'email & password' set in the command.
 
 ### 1️⃣ Clone the Repository  
 ```bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/your-username/your-repo.git](https://github.com/HimanshuRajput013/RAG_POSTRESQL_HYBRID_SEARCH_WITH_SQL_QUERY
 cd your-repo
 ```
 ### 2️⃣ Install Dependencies
