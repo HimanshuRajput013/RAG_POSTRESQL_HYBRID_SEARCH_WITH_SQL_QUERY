@@ -1,0 +1,7 @@
+langchain_community
+langchain_huggingface
+langchain_groq
+streamlit
+langchain_postgres
+psycopg3
+sentence-transformers
