@@ -4,6 +4,7 @@ Welcome to **Conversational RAG**, a powerful Streamlit-based application that a
 
 ## 📌 Features:
 ✅ Create database 
+
 ✅ Retrieve context-SQL query generated with LLM Model and utilize Hybrid Search
 ✅ Seamless chat history management  
 ✅ Built-in PostgreSQL vector storage with `pgvector` 
