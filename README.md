@@ -3,7 +3,7 @@
 Welcome to **Conversational RAG**, a powerful Streamlit-based application that allows you to contact your SQL database with natural language and query generated using AI-powered retrieval mechanisms. 📄💬
 
 ## 📌 Features:
-✅ Create database 
+✅ Create database
 ✅ Retrieve context-SQL query generated with LLM Model and utilize Hybrid Search
 ✅ Seamless chat history management  
 ✅ Built-in PostgreSQL vector storage with `pgvector` 
