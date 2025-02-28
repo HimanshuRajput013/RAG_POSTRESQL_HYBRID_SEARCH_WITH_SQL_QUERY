@@ -1,4 +1,4 @@
-# 🚀 Conversational RAG with Hybrid Search(Vector Seacrch +SQL)
+# 🚀 Conversational RAG with Hybrid Search(Vector Seacrch +SQL) to Query PostreSQL Database
 
 Welcome to **Conversational RAG**, a powerful Streamlit-based application that allows you to contact your SQL database with natural language and query generated using AI-powered retrieval mechanisms. 📄💬
 
