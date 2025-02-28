@@ -31,6 +31,15 @@ os.environ['HF_TOKEN'] = os.getenv("HF_TOKEN")
 
 # Load Embedding Model
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2")
+connection = "postgresql+psycopg://langchain:langchain@localhost:6024/langchain"
+collection_name = "my_docs"
+
+vector_store = PGVector(
+    embeddings=embeddings,
+    collection_name=collection_name,
+    connection=connection,
+    use_jsonb=True,
+)
 
 # Streamlit UI Setup
 st.set_page_config(page_title="LangChain: Hybrid Search with PostgreSQL", page_icon="🦜")
@@ -61,15 +70,7 @@ def configure_db():
 
 # Initialize Database
 db, connection_string = configure_db()
-connection = "postgresql+psycopg://langchain:langchain@localhost:6024/langchain"
-collection_name = "my_docs"
 
-vector_store = PGVector(
-    embeddings=embeddings,
-    collection_name=collection_name,
-    connection=connection,
-    use_jsonb=True,
-)
 
 def execute_sql_command(command):
     try:
