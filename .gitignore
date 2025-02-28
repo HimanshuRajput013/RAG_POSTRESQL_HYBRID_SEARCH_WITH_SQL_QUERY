@@ -1,0 +1,23 @@
+# Python-related files
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+
+# VS Code settings
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Virtual environments
+venv/
+.venv/
+aienv/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
