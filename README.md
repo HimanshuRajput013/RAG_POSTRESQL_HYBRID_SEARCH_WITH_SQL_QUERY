@@ -17,7 +17,7 @@ This guide helps you **quickly set up PostgreSQL with the pgVector extension** a
 
 ## 🛠️ **Run PostgreSQL with pgVector**  
 
-You can start a **PostgreSQL container** with **pgVector** using the following command:  
+You can start a **PostgreSQL container** with **pgVector** using the following command
 
 ```sh
 docker run --name pgvector-container \
